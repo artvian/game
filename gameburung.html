@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flappy Bird - Burung Petualang</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="gameWrapper">
+  <div id="gameTitle">🐦 FLAPPY <span>BURUNG</span></div>
+
+  <div id="scoreBoard">
+    <div class="score-item">
+      <div class="score-label">SKOR</div>
+      <div class="score-value" id="scoreDisplay">0</div>
+    </div>
+    <div class="score-item">
+      <div class="score-label">TERTINGGI</div>
+      <div class="score-value" id="bestDisplay">0</div>
+    </div>
+  </div>
+
+  <canvas id="canvas" width="420" height="600"></canvas>
+
+  <div id="hint">SPASI / KLIK / TAP untuk terbang</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
